@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import doctordedi from "@/public/doctordedi.png"
+import atmYerimVar from "@/public/atmYerimVar.png"
+import adisyon from "@/public/foto2.png"
 
 export const links = [
   {
@@ -35,20 +35,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Sesasis Information Technologies, Software Support Personel(Intern)",
+    location: "Ankara, Turkey",
+    
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    title: "Sesasis Information Technologies,Front-End Developer",
+    location: "Ankara, Turkey",
+    
+    icon: React.createElement(FaReact),
+    date: "2022 - present",
   },
   {
     title: "Full-Stack Developer",
@@ -62,26 +60,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DoctorDedi",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An online platform with mobile and web interfaces that allows doctors and patients to make virtual appointments.",
+    tags: ["React", "React Native", "PostgreSQL", "PrimeReact","Boostrap","Redux"],
+    imageUrl: doctordedi,
   },
   {
-    title: "rmtDev",
+    title: "ATM Yerim Var",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Promotional website designated for ATMs",
+    tags: ["React", "CSS","PrimeReact","Figma"],
+    imageUrl: atmYerimVar,
   },
   {
-    title: "Word Analytics",
+    title: "Restaurant Business Intelligence",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+      "It is a React-based front-end project that we developed for taking orders and all billing transactions and tracking of received orders.",
+    tags: ["React", "Redux","PrimeReact","PostgreSQL","Recoiljs"],
+    imageUrl: adisyon,
+  }
 ] as const;
 
 export const skillsData = [
