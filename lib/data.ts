@@ -35,26 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Osmaniye Korkut Ata Universitesi",
+    location: "Osmaniye, Turkey",
+    
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
+  },
+  {
     title: "Sesasis Information Technologies, Software Support Personel(Intern)",
     location: "Ankara, Turkey",
     
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    icon: React.createElement(FaReact),
+    date: "2021 - 3 Months",
   },
   {
-    title: "Sesasis Information Technologies,Front-End Developer",
+    title: "Sesasis Information Technologies,Frontend Developer",
     location: "Ankara, Turkey",
-    
+    description:
+      "React, React Native, Next.js, Redux, RecoilJs Router, TailwindCSS,Boostrap5, PrimeReact, PrimeFlex ,Postman, Web Services, PostgreSQL, MongoDB, Git, Github, Figma,Adobe Photoshop ",
     icon: React.createElement(FaReact),
     date: "2022 - present",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
   },
 ] as const;
 
