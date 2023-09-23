@@ -35,24 +35,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Osmaniye Korkut Ata Universitesi",
-    location: "Osmaniye, Turkey",
-    
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
     title: "Sesasis Information Technologies, Software Support Personel(Intern)",
     location: "Ankara, Turkey",
-    
+    description:"HTML, CSS, Javascript,TailwindCSS, Boostrap5, PrimeReact,Web Services",
     icon: React.createElement(FaReact),
     date: "2021 - 3 Months",
   },
   {
+    title: "Osmaniye Korkut Ata Universitesi",
+    location: "Osmaniye, Turkey",
+    description:"Managment Informations Systems",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
+  },
+  
+  {
     title: "Sesasis Information Technologies,Frontend Developer",
     location: "Ankara, Turkey",
     description:
-      "React, React Native, Next.js, Redux, RecoilJs Router, TailwindCSS,Boostrap5, PrimeReact, PrimeFlex ,Postman, Web Services, PostgreSQL, MongoDB, Git, Github, Figma,Adobe Photoshop ",
+      "React, React Native, Next.js, Redux, RecoilJs, Router, TailwindCSS,Boostrap5, PrimeReact, PrimeFlex ,Postman, Web Services, PostgreSQL, MongoDB, Git, Github, Figma,Adobe Photoshop ",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
